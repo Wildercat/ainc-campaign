@@ -1,0 +1,7 @@
+#bg {
+    background-image: url('img/dariusSplash.jpg');
+    height: 500px;
+}
+.transparentbg {
+    background-color: rgba(0, 0, 0, .5)
+}
