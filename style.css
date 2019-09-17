@@ -1,7 +1,14 @@
 #bg {
     background-image: url('img/dariusSplash.jpg');
-    height: 500px;
+    height: 100%;
+    background-repeat: no-repeat;
 }
 .transparentbg {
     background-color: rgba(0, 0, 0, .5)
+}
+#firstRow {
+    height: 600px;
+}
+#secondRowFirstColumn {
+    font-size: 125%
 }
