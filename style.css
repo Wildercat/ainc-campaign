@@ -4,7 +4,7 @@
     background-repeat: no-repeat;
 }
 .transparentbg {
-    background-color: rgba(0, 0, 0, .5)
+    background-color: rgba(0, 0, 0, .5);
 }
 #firstRow {
     height: 600px;
@@ -12,3 +12,9 @@
 #secondRowFirstColumn {
     font-size: 125%
 }
+
+@media only screen and (max-width: 990px) {
+    #bg {
+        background-position: -350px 0px;
+    }
+  }

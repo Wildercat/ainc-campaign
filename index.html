@@ -14,34 +14,36 @@
 </head>
 
 <body>
-    <header class='container'>
-        <nav class='navbar navbar-expand-lg navbar-dark bg-dark'>
-                <img src="img/dariusIcon.png" class="img-fluid px-1 ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="DUNK" width="50" height="50">
-            <span class='navbar-brand pl-2'>Darius</span>
-            <span class='navbar-text'>for Constable</span>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class='collapse navbar-collapse' id="navbarSupportedContent">
-                <ul class='navbar-nav ml-auto'>
-                    <li class='nav-item active'>
-                        <a class='nav-link' href="index.html">Campaign</a>
-                    </li>
-                    <li class='nav-item'>
-                        <a class='nav-link' href="projects.html">My Mission</a>
-                    </li>
-                    <li class='nav-item'>
-                        <a class='nav-link' href="links.html">Act Now</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </header>
+    <div class="container p-0">
+    <nav class='navbar navbar-expand-lg navbar-dark bg-dark'>
+        <img src="img/dariusIcon.png"
+            class="img-fluid px-1 ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+            alt="DUNK" width="50" height="50">
+        <span class='navbar-brand pl-2'>Darius</span>
+        <span class='navbar-text'>for Constable</span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class='collapse navbar-collapse' id="navbarSupportedContent">
+            <ul class='navbar-nav ml-auto'>
+                <li class='nav-item active'>
+                    <a class='nav-link' href="index.html">Campaign</a>
+                </li>
+                <li class='nav-item'>
+                    <a class='nav-link' href="#myMission">My Mission</a>
+                </li>
+                <li class='nav-item'>
+                    <a class='nav-link' href="#actNow">Act Now</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    </div>
 
     <div class='container' id='bg'>
         <div class='row align-items-center' id='firstRow'>
-            <div class='col-3 transparentbg text-white'>
+            <div class='col-lg-4 p-1 transparentbg text-white'>
                 <h1 class='display-1'>Darius</h1>
                 <h2 class='display-4 text-white-50'>Hand of Noxus</h2>
                 <!-- <div class='row'>
@@ -50,10 +52,12 @@
         </div> -->
             </div>
         </div>
-        <div class="row p-2">
+        <div class="row p-3">
+            <a name='myMission'></a>
             <div class="col-lg-8 p-4 text-white bg-dark" id='secondRowFirstColumn'>
                 <h2><i>I have run out of commanding officers to execute.</i></h2>
-                <p>Finding myself at the top of the Noxian command structure, I must now seek new, higher positions of power.</p>
+                <p>Finding myself at the top of the Noxian command structure, I must now seek new, higher positions of
+                    power.</p>
                 <p><b>If I am elected I will:</b></p>
                 <ul id='missionStatement'>
                     <li class='py-2'>Challenge and defeat my superiors in single combat.</li>
@@ -61,12 +65,15 @@
                     <li class='py-2'>Reform your society around the only truth: pure physical might.</li>
                 </ul>
             </div>
-            <div class="col-lg">
-                <img src="img/dunkDarius.jpg" class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="DUNK">
-                
+            <div class="col-lg pr-0">
+                <img src="img/dunkDarius.jpg"
+                    class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+                    alt="DUNK">
+
             </div>
         </div>
         <div class="row">
+            <a name='actNow'></a>
             <div class="col-lg-5">
                 <div class="card">
                     <img class="card-img-top" src="img/dunkmasterDarius.jpg" alt="ALSO DUNK">
@@ -74,7 +81,8 @@
                         <h4 class="card-title">Qualifications</h4>
                         <ul class="list-group">
                             <li class="list-group-item">Undefeated in single combat</li>
-                            <li class="list-group-item">Undefeated in the Runeterran Basketball Championships <span class='text-black-50'>(via death or dismemberment of the opposing team)</span></li>
+                            <li class="list-group-item">Undefeated in the Runeterran Basketball Championships<span
+                                    class='text-black-50'>(via death or dismemberment of the opposing team)</span></li>
                             <!-- <li class="list-group-item disabled">(via death or dismemberment of the opposing team)</li> -->
                             <li class='list-group-item'>Unopposed Noxian Log Splitting Champion</li>
                         </ul>
@@ -83,7 +91,7 @@
             </div>
             <div class="col-lg p-4">
                 <h2 class='display-3'>What You Can Do</h2>
-                <p>Cower in your home, weakling.</p>
+                <p>Cower in your home, weakling. On November 5th.</p>
             </div>
         </div>
     </div>
