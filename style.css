@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+}
 #bg {
     background-image: url('img/dariusSplash.jpg');
     height: 100%;
